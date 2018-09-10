@@ -88,6 +88,10 @@ _sfdx()
         force:org:shape:create \ 
         force:org:shape:delete \ 
         force:org:shape:list \ 
+        force:org:snapshot:create \ 
+        force:org:snapshot:delete \ 
+        force:org:snapshot:get \ 
+        force:org:snapshot:list \ 
         force:package1:version:create \ 
         force:package1:version:create:get \ 
         force:package1:version:display \ 
@@ -123,9 +127,12 @@ _sfdx()
         force:schema:sobject:describe \ 
         force:schema:sobject:list \ 
         force:source:convert \ 
+        force:source:delete \ 
+        force:source:deploy \ 
         force:source:open \ 
         force:source:pull \ 
         force:source:push \ 
+        force:source:retrieve \ 
         force:source:status \ 
         force:user:create \ 
         force:user:display \ 
